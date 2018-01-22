@@ -1,0 +1,49 @@
+.navbar {
+background: black;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.navbar .nav {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-align:center;
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 400px;
+}
+
+
+.paragraph2 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align:center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#section1 .fb-bg {
+  background-image: url(background2.jpg);
+  background-size: cover;
+  background-position: center 80%;
+}

@@ -1,0 +1,181 @@
+.header {
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 60px;
+color: whitesmoke;
+}
+.rows{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+
+.picture {
+
+  height:300px;
+  width: 300px;
+  padding-top: 20px;
+}
+
+.subTitle {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #8b8f96;
+
+}
+
+.myIntro {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}
+
+.parent {
+  width: 400px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
+.child4 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/National_Gallery_of_Canada_glass_tower_2005.jpg/1200px-National_Gallery_of_Canada_glass_tower_2005.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child4,
+.parent:focus .child4 {
+  transform: scale(1.1);
+}
+.parent:hover .child4{
+  opacity:0.4;
+}
+
+
+.child5 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("http://www.ontarioarchitecture.com/Pomoott.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child5,
+.parent:focus .child5 {
+  transform: scale(1.1);
+}
+.parent:hover .child5{
+  opacity:0.4;
+}
+
+
+.child6 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://www.tourismeottawa.ca/wp-content/uploads/2014/11/Shaw-Centre_1-985x552.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child6,
+.parent:focus .child6 {
+  transform: scale(1.1);
+}
+.parent:hover .child6 {
+  opacity:0.4;
+}
+
+
+.child7 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://www.crhp-rclp.ca/UploadedImages/73539.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child7,
+.parent:focus .child7 {
+  transform: scale(1.1);
+}
+.parent:hover .child7{
+  opacity:0.4;
+}
+
+
+.child8 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("http://www.nrc-cnrc.gc.ca/ctu-sc/files/images/ctu-sc/ctu67/fig1.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child8,
+.parent:focus .child8 {
+  transform: scale(1.1);
+}
+.parent:hover .child8 {
+  opacity:0.4;
+}
+
+
+.child9 {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/7f/f0/29/7ff029b40759d0a74373d80fa7429bf5--neoclassical-architecture-slotte.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all .3s;
+
+}
+
+.parent:hover .child9,
+.parent:focus .child9 {
+  transform: scale(1.1);
+}
+.parent:hover .child9 {
+  opacity:0.4;
+}
+
+
+
+#resumeIcon {
+  height:110px;
+  width: 85px;
+  padding-top: 30px;
+  position: absolute;
+  right: 600px;
+}
+
+#gitHubIcon {
+  height:100px;
+  width: 110px;
+  padding-top: 30px;
+  position: absolute;
+  right: 700px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link href = "style.css" rel = "stylesheet">
+<link href = "index.css" rel = "stylesheet">
+<link rel="stylesheet" type="text/css" href="aboutMirela.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Megrim|Roboto:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee|Plaster|Rubik+Mono+One|Zilla+Slab+Highlight" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Amatica+SC|Nixie+One|Open+Sans" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<script type="text/javascript" src="jquery.fullPage.js"></script>
+<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+<body>
+
+  <div id="fullpage" class= "fullpage-wrapper">
+    <div class="section active">
+      <h1 class = "header">Hi, I'm Mirela</h1>
+    </div>
+
+    <div class="section">
+      <div class="intro">
+          <p class ="myIntro">Caleton University</p>
+          <p class ="myIntro">Bachelor of Computer Science Honours, Management & Business Systems Stream </p>
+          <p class ="myIntro">second year student</p>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="intro">
+        <div class="rows">
+        <div class = "tiramisuContainer">
+          <img id="tiramisuImg" class="about_image" src="https://i.ytimg.com/vi/om_c_HHoYHc/maxresdefault.jpg"
+              alt="tiramisu"/>
+          <div class="imgDescr">tiramisu: my favourite dessert </div>
+        </div>
+
+        <div class = "beachContainer">
+          <img id="beachImg" class="about_image" src="http://media.cntraveler.com/photos/5697feacc58591430b12aeb0/master/w_775,c_limit/Lopes-Mendes-beach-cr-getty.jpg"
+              alt="beach"/>
+          <div class="imgDescr">the beach: my happy place</div>
+        </div>
+
+        <div class = "peonyContainer">
+          <img id="peonyImg" class="about_image" src="http://static.tumblr.com/6ac59327803d6518d9bd7b3c137efd28/6ucpify/zb6o6xvgj/tumblr_static_97h7rlmolj40s8kk8080cgsc8.jpg"
+              alt="peonies"/>
+          <div class="imgDescr">peonies: my favourite flower</div>
+        </div>
+
+        </div>
+
+        <div class="rows">
+          <div class = "planeContainer">
+            <img id="planeImg" class="about_image" src="https://secure.static.tumblr.com/f1bba8ed3e63d889fe687cd87068f6cf/kpucgss/Zugo244n3/tumblr_static_tumblr_static__640.jpg"
+                alt="airplane">
+                <div class="imgDescr">travel: I aspire to do more of</div>
+          </div>
+
+          <div class = "runContainer">
+            <img id="runImg" class="about_image" src="http://thetinatimes.com/wp-content/uploads/2016/08/running.jpg"
+              alt="running"/>
+              <div class="imgDescr">running: keeps me in shape</div>
+          </div>
+
+          <div class = "moldovaContainer">
+            <img id="moldovaImg" class="about_image" src="http://www.d.umn.edu/~jfitzake/Lectures/DMED/SpeechLanguage/LanguageImage.jpg"
+              alt="Moldova">
+              <div class="imgDescr">languages: I speak 5</div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="intro">
+        <p class ="myIntro">Checkout my resume and my GitHub for a look at some of the side projects I've done</p>
+        <a href="resume.pdf">
+          <img id="resumeIcon" src="http://www.pvhc.net/img201/wpjyqlyhjoacryakixzy.png"
+            alt="resume">
+        </a>
+        <a href="https://github.com/mipulbere">
+          <img id="gitHubIcon" src="https://image.flaticon.com/icons/svg/25/25231.svg"
+            alt="GitHub">
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+          $('#fullpage').fullpage({
+              sectionsColor: ['black', 'whitesmoke', 'whitesmoke', 'whitesmoke'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+              menu: '#menu',
+              css3: true,
+              scrollingSpeed: 1000
+          });
+
+          $('#showExamples').click(function(e){
+              e.stopPropagation();
+              e.preventDefault();
+              $('#examplesList').toggle();
+          });
+
+          $('html').click(function(){
+              $('#examplesList').hide();
+          });
+      });
+    </script>
+
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
+<!--
+  <script>
+  window.sr = ScrollReveal();
+  sr.reveal('.picture', {origin: 'bottom', distance: '100px', duration: 2000 });
+  </script>
+</body> -->
+
+
+
+
+<script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
